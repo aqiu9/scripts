@@ -85,7 +85,7 @@ def try_click(click_fn, *args):
         click_fn(*args)
         return True
     except Exception as e:
-        print(f"{click_fn.__name__}点击失败: {e}")
+        print(f"{click_fn.__name__}点击失败: {args}")
         return False
 
 def try_play(page, play_btn_paths, play_element_locators, is_headless):
