@@ -175,7 +175,7 @@ def study_courses(page, config, is_headless):
 
 def main():
     config = {
-        'login_url': "https://zhixueyun.com/",
+        'login_url': "https",
         'username_selector': '#D65username',
         'password_selector': '#D65pword',
         'login_button_selector': '#D65login',
